@@ -32,7 +32,7 @@ type Options struct {
 	NavigationColor *color.NRGBA
 	Orientation     *Orientation
 	CustomRenderer  bool
-	Centered bool
+	Centered        bool
 }
 
 type WakeupEvent struct{}
